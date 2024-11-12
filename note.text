@@ -1,0 +1,13 @@
+JS code execution
+
+1. source code  to machine code ;
+2. its called jit . jit mean that just in time compilation;
+3.Jit interprete source code to machine code code and then compiller immediately execute it ;
+4. modern jit works like :
+                            code => Parsing => compilation => execution
+                            {Parsing mean source code to convevt js object json}
+5.Node js is a Runtime;
+Runtime have 3 iteams : 
+                            1. Js Engine => Callstack & Heap
+                            2. Web api => Dom , Tree ,fetch api
+                            3. Callback Queue
